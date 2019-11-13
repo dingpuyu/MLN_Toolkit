@@ -55,14 +55,14 @@ index是模板工程默认的一个文件，选中indexDebug点击绿三角运�
 ```
 经以上步骤，我们已经完成了开发环境的搭建，千里之行始于足下，为了能够能够开发出定制化更强的lua控件，我们建议使用lua进行组件的封装，接下来，我将带领大家使用一下lua开发的组件
 ```
-键入以下内容，并点击屏幕
+在index.lua中键入以下内容，并点击屏幕测试效果  
 ```
 MLToast = require("LuaComponent.MLToast.MLToast")
 window:onClick(function()
 MLToast("你好呀！",2,window,-30)
 end)
 ```
-效果如图：
+效果如图：  
 ![image.png](https://github.com/dingpuyu/MLN_Toolkit/blob/master_image_source/images/5dc7d709ab662.png?raw=true)  
 
 #### 热重载开发展示  
